@@ -20,5 +20,10 @@ const pageTitle = "Home Page";
 	  <p>https://app.netlify.com/teams/johnisthedeveloper/overview</p>
 	  <p>https://splendorous-frangollo-9b64e5.netlify.app/</p>
     <Footer />
+    <script>
+      document.querySelector('.hamburger').addEventListener('click', () => {
+        document.querySelector('.nav-links').classList.toggle('expanded');
+      });
+    </script>
   </body>
 </html>
